@@ -1,0 +1,31 @@
+POST http://localhost:3333/videos
+Content-Type: application/json
+ 
+
+
+{
+  "title": "videos 01",
+  "description": "esse é o primeiro video",
+  "duration":100
+}
+
+###
+
+GET  http://localhost:3333/videos
+
+###
+
+PUT http://localhost:3333/videos/
+Content-Type: application/json
+ 
+
+
+{
+  "title": "videos legal",
+  "description": "bruh wata reu",
+  "duration":100
+}
+
+###
+
+DELETE http://localhost:3333/videos/
